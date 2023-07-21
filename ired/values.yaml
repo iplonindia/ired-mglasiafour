@@ -50,10 +50,10 @@ service:
 resources:
   limits:
     cpu: 400m
-    memory: 1000Mi
+    memory: 1500Mi
   requests:
     cpu: 200m
-    memory: 500Mi
+    memory: 750Mi
 
 nodered_mount:
    name: flowstoragemount
